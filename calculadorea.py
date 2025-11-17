@@ -17,7 +17,7 @@ def calcular():
 
         etiqueta_resultado.config(text=f"Resultado: {resultado}")
     except:
-        etiqueta_resultado.config(text="Error en los datos")
+        etiqueta_resultado.config(text="Error todos los datos")
 
 ventana = tk.Tk()
 ventana.title("Calculadora")
